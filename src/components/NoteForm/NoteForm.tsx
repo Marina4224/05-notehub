@@ -87,6 +87,10 @@ export default function NoteForm({ onSuccess }: NoteFormProps) {
           <button type="submit" className={css.submitButton}>
             Create note
           </button>
+            <button
+    type="button" className={css.cancelButton} onClick={onSuccess}>
+    Cancel
+  </button>
         </div>
       </Form>
     </Formik>
