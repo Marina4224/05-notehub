@@ -25,7 +25,7 @@ export default function App() {
      placeholderData: keepPreviousData,
   });
 
-  const notes = data?.data || []; 
+  const notes = data?.notes|| []; 
 const totalPages = data?.totalPages || 1;
 
     return (
